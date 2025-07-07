@@ -276,7 +276,7 @@ def prepare_environment():
     clip_package = os.environ.get("CLIP_PACKAGE", "https://github.com/openai/CLIP/archive/d50d76daa670286dd6cacf3bcd80b5e4823fc8e1.zip")
 
     packaging_package = os.environ.get("PACKAGING_PACKAGE", "packaging==24.2")
-    gradio_package = os.environ.get("GRADIO_PACKAGE", "gradio==3.35.2")
+    gradio_package = os.environ.get("GRADIO_PACKAGE", "gradio==3.41.2")
     insightface_package = os.environ.get("INSIGHT_PACKAGE", "insightface==0.7.3")
     requirements_file = os.environ.get("REQS_FILE", "requirements.txt")
 
